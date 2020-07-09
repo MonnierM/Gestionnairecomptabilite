@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linear"
+    tools:context=".Journal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/backgroundendlessriver"/>
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TITRE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="RETOUR"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Période du: "
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:id="@+id/tv_periode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "04/08/2015 au 05/11/2015"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="138dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Débit"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="470dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crédit"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="590dp"
+        android:textColor="@color/black"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/journal_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_marginTop="290dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total des transactions à ce jour: "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="990dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="000000"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="990dp"
+        android:layout_marginLeft="570dp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

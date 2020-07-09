@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gestionnaire comptabilité</string>
+    <string name="bienvenue_name">Bienvenue dans votre \nGestionnaire de Comptabilité</string>
+    <string name="association_name">AFPA PROD 2018</string>
+    <string name="user_name">NOM</string>
+    <string name="password_name">Mot de passe</string>
+    <string name="login_name">VALIDER</string>
+    <string name="welcome_name">Bienvenue</string>
+    <string name="gestcompt_name">Gestionnaire de Comptabilité</string>
+    <string name="tv_info_header_name">Président</string>
+    <string name="tv_info_asso_name">DEV OCCITAN</string>
+    <string name="tv_info_admail_name">dev.occitan@gmail.fr</string>
+    <string name="tv_info_htphone_name">555 555 555</string>
+    <string name="btn_caisse">Caisse :</string>
+</resources>

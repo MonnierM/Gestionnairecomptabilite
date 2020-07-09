@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name = "black">#17202A</color>
+    <color name="pinkcolor">#f23557</color>
+    <color name="pinklightcolor">#f16a82</color>
+    <color name="colordarkbluewater">#178b9b</color>
+    <color name="colorbluewater">#0bcce6</color>
+    <color name="colorlightluewater">#82d9e5</color>
+    <color name="colordarkEndlessRiver">#185a9d</color>
+    <color name="colorlightEndlessRiver">#43cea2</color>
+    <color name="txtcolor">#03464f</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="blackcolor">#000000</color>
+    <color name="graycolor">#808080</color>
+    <color name="lightgraycolor">#edeeef</color>
+
+</resources>
